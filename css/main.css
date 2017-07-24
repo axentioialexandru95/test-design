@@ -1,0 +1,63 @@
+#fullpage .section .brand h1 {
+  left: 2%;
+  top: 2%;
+  background-color: #dbd922;
+  padding: 10px 20px;
+  font-size: 50px;
+  position: fixed;
+  color: white;
+  z-index: 5; }
+
+#fullpage .section .first {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  #fullpage .section .first .left {
+    background-color: #353136;
+    width: 40%;
+    height: 100%; }
+    #fullpage .section .first .left .text {
+      z-index: 1;
+      width: 850px;
+      position: absolute;
+      color: white;
+      top: calc(50% - 40px);
+      left: 20%; }
+      #fullpage .section .first .left .text h1 {
+        font-family: "Bellefair", serif;
+        font-weight: 300;
+        font-size: 50px; }
+      #fullpage .section .first .left .text span {
+        color: #dbd922; }
+    #fullpage .section .first .left .background-text {
+      color: rgba(128, 128, 128, 0.2); }
+      #fullpage .section .first .left .background-text h1 {
+        font-weight: 300;
+        position: absolute;
+        font-size: 190px;
+        top: calc(50% - 100px);
+        z-index: 0; }
+  #fullpage .section .first .right {
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/header.jpeg"); }
+
+#fullpage .section .second {
+  height: 100%;
+  width: 100%;
+  background-color: yellow; }
+
+#fullpage .section .third {
+  height: 100%;
+  width: 100%;
+  background-color: green; }
+
+#fullpage .section .fourth {
+  height: 100%;
+  width: 100%;
+  background-color: blue; }

@@ -1,0 +1,70 @@
+// Colors
+$primary-color: rgb(53, 49, 54)
+$secondary-color: rgb(219,217,34)
+
+// Fonts
+$primary-font: 'Bellefair', serif
+
+
+#fullpage
+  .section
+    .brand
+      h1
+        left: 2%
+        top: 2%
+        background-color: $secondary-color
+        padding: 10px 20px
+        font-size: 50px
+        position: fixed
+        color: white
+        z-index: 5
+    .first
+      height: 100%
+      width: 100%
+      display: flex
+      .left
+        background-color: $primary-color
+        width: 40%
+        height: 100%
+        .text
+          z-index: 1
+          width: 850px
+          position: absolute
+          color: white
+          top: calc(50% - 40px)
+          left: 20%
+          h1
+            font-family: $primary-font
+            font-weight: 300
+            font-size: 50px
+          span
+            color: $secondary-color
+        .background-text
+          color: rgba(gray, 0.2)
+          h1
+            font-weight: 300
+            position: absolute
+            font-size: 190px
+            top: calc(50% - 100px)
+            z-index: 0
+
+      .right
+        height: 100%
+        width: 60%
+        background:
+          size: cover
+          position: center
+          image: url('../images/header.jpeg')
+
+    .second
+      height: 100%
+      width: 100%
+      background-color: yellow
+    .third
+      height: 100%
+      width: 100%
+      background-color: green
+    .fourth
+      height: 100%
+      width: 100%
+      background-color: blue
